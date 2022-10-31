@@ -1,20 +1,20 @@
 CloudFlare:
-  mail: yumusb@foxmail.com
-  token: yourtoken
+  mail: 110539hang@gmail.com
+  token: 878bf37bb0fb3a818009760ced2691ef45867
 #将要监控的域名记录
 domain:
-  name: yourdomain.com
+  name: yinhecdn.xyz
   zone:
   - subdomain: 'www'
     type: http
     port: 80
 #主用加备用记录 都写在这里
 records:
-- content: yumusb.coding.me 
+- content: hk.yinhecdn.xyz 
   name: 'www'
   type: CNAME
   proxied: false
-- content: yumusb.github.io
+- content: us.yinhecdn.xyz
   name: 'www'
   type: CNAME
   proxied: false
