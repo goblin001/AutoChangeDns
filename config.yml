@@ -1,6 +1,6 @@
 CloudFlare:
   mail: 110539hang@gmail.com
-  token: 878bf37bb0fb3a818009760ced2691ef45867
+  token: 
 #将要监控的域名记录
 domain:
   name: yinhecdn.xyz
